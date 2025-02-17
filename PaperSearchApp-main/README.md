@@ -71,6 +71,3 @@ Arxiv API を利用して論文を検索し、結果を表示する Web アプ�
 バックエンドは FastAPI、flask を使用
 Docker と Docker Compose を使用
 
-# 和田に向けて
-
-感謝しかない
