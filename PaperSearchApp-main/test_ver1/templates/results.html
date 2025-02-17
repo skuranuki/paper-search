@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>検索結果</title>
+  </head>
+  <body>
+    <h1>検索結果</h1>
+    {% if results %} {% for result in results %}
+    <div>
+      <h2><a href="{{ result.link }}">{{ result.title }}</a></h2>
+      <p>{{ result.summary }}</p>
+      <p>
+        <strong>著者:</strong> {{ result.authors|join(', ') }} &nbsp;
+        <strong>引用数:</strong>{{ result.citation }}
+      </p>
+    </div>
+    {% endfor %} {% else %}
+    <p>No results found.</p>
+    {% endif %}
+  </body>
+</html>

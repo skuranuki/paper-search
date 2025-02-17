@@ -1,0 +1,17 @@
+/* 必要に応じてCSSを追加 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+div {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
+      - /PaperSearchApp/PaperSearchApp/test_ver4/backend/app/data/backend-data:/app/data
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./frontend    
+    ports:
+      - "8080:8080"
+    depends_on:
+      - backend
+volumes:
+  backend-data: # データベースファイル用のボリューム
