@@ -1,7 +1,7 @@
 # 使用方法
 ## 1. 本リポジトリをクローン
 git clone https://github.com/kurakanu-shoma/arXiv-search-app.git
-cd arXiv-search-app
+cd PaperSearchApp-main/test_ver4
 
 ## 2. Dockerコンテナをビルドして起動
 docker-compose up --build -d
