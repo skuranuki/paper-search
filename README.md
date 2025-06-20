@@ -6,4 +6,4 @@ cd arXiv-search-app
 docker-compose up --build -d
 
 # 3. アプリケーションにアクセス
-# ブラウザで http://localhost:8080 を開きます
+ブラウザで http://localhost:8080 を開きます
